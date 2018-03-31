@@ -1,0 +1,15 @@
+name: SmartServerSay
+version: 1.0
+main: me.s3ns3iw00.main.MainClass
+description: Your server is can talk with players with this plugin.
+
+commands:
+  smartserversay:
+    description: The plugin's main command.
+    usage: <command>
+    aliases: [sss, smartss]
+
+permissions:
+  sss.reload:
+    description: Reload the plugin.
+    default: op

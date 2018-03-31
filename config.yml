@@ -1,0 +1,72 @@
+#This is the SmartServerSay plugin's configuration file.
+#Replaced tags: %player% - message receiver, %time% - current time formated 'time-format'.
+#Use '§' for color code.
+
+#Ez a SmartServerSay plugin konfigurációs fájlja.
+#Kicserélt tagok: %player% - az üzenet fogadója, %time% - jelenlegi idő 'time-format' szerint formázva.
+#Használd '§' színkódnak.
+
+#Disable if you don't want to send update message to OP players on join, when update is available.
+#Kapcsold ki, ha nem akarod, hogy az OP-val rendelkező játékosok frissítési üzenetet kapjanak belépéskot, mikor van elérhető frissítés.
+update-notification: true
+
+#Character explanation:
+#y: one number from year. y = 2, yyyy = 2018.
+#M: one number from month. M = 0, MM = 03.
+#d: one numbder from day. d = 3, dd = 31.
+#H: one number from hour. H = 1, HH = 12.
+#m: one number from minute. m = 3, mm = 30.
+#s: one number from second. s = 1, ss = 15.
+#More: https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+#NOTE: If you don't know what these are, leave default.
+
+#Karakter magyarázat:
+#y: egy szám az évből. y = 2, yyyy = 2018.
+#M: egy szám a hónapból. M = 0, MM = 03.
+#d: egy szám a napból. d = 3, dd = 31.
+#H: egy szám az órából. H = 1, HH = 12.
+#m: egy szám a percből. m = 3, mm = 30.
+#s: egy szám a másodpercből. s = 1, ss = 15.
+#Több: https://docs.oracle.com/javase/7/docs/api/java/text/SimpleDateFormat.html
+#Megjegyzés: Ha nem tudod mik ezek, hagyd alapon.
+time-format: "yyyy.MM.dd. HH:mm:ss"
+
+#You can set here the plugin's language. Available languages: english, magyar (hungarian)
+#Betudod állítani a plugin nyelvét. Elérhető nyelvek: english (angol), magyar
+language: english
+
+#Your server prefix, if you have. NOTE: You don't need to insert this prefix before messages, the plugin take that automatically. You don't need space before and after prefix and messages.
+#A szervered előtagja, ha van. Megjegyzés: Nem kell odaraknod az előtagot az üzenetek elé, a plugin automatikusan odarakja. Nem kell szóközt tenned az előtag és az üzenet elé, se utána.
+server-prefix:
+  enable: true
+  prefix: "§6[§cSmart§9Server§3Say§6]"
+
+#The server greeting to the player.
+#A szerver köszön a játékosnak.
+join-message:
+  enable: true
+  message: "§bWelcome, §5%player%§b! The current date and time is §5%time%§b!"
+
+#The chat-messages will be sent when the player's chat messages contains any of these words.
+#A chat-messages akkor lesz elküldve, ha a játékos üzenete tartalmazza az itt lévő szavak bármelyikét.
+chat-messages:
+  enable: true
+  #Enable if you don't want to the server send two or more messages in once, if the message contains more than one specified word. NOTE: The plugin send the first result's message from above.
+  #Kapcsold be, ha nem szeretnéd, hogy a szerver két vagy több üzenetet küldjön egyszerre, ha több meghatározott szó szerepel az üzenetben. Megjegyzés: A plugin felülről az első találat üzenetét küldi el.
+  anti-flood: true
+  words:
+    #"testword" is a chat word. Add much as you want.
+    #"testword" egy csevegés szó. Adj hozzá annyit, amennyit akarsz.
+    testword:
+      message: "§aThis message is sent to player when the §c'testword' §aword is contains in player's message!"
+      #Enable if you want to check only the message contains the word in separated word. Example if true: 'hellotestword' - doesn't send message. 'hello testword' send message.
+      #Kapcsold be, ha azt szeretnéd, hogy csak akkor ellenőrizze, ha a szó külön szóként szerepel. Példa, ha be van kapcsolva: 'hellotestword' nem küld üzenetet. 'hello testword' küld üzenetet.
+      single-word: true
+    #testword2:
+      #message: "This is the next word example!"
+      #singe-word: true
+
+
+
+#Soon: Actions, better message check.
+#Hamarosan: Akciók, jobb üzenet ellenőrzés.
