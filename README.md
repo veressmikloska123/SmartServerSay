@@ -27,25 +27,26 @@ Frissíteni fogom a plugint. Kérlek segíts ötletekkel a Githubon.
 
 # Features / Jellemzők:
 
-Infinity word setting
-Chat word checking (enable/disble)
-Join greeting (enable/disable)
-Replaced tags (%player%, %time%)
-Anti flood (words' messages)
-Checking only separated words (enable/disable per word)
+- Infinity word setting
+- Chat word checking (enable/disble)
+- Join greeting (enable/disable)
+- Replaced tags (%player%, %time%)
+- Anti flood (words' messages)
+- Checking only separated words (enable/disable per word)
+
 =============================================
 
-Végtelen beállítható szó
-Beszélgetésben lévő szavak ellenőrzése (kikapcsolás/bekapcsolás)
-Csatlakozási köszönés (kikapcsolás/bekapcsolás)
-Kicserélt tagok (%player%, %time%)
-Anti flood (a szavak üzeneteire)
-Csak külön szó ellenőrzése (kikapcsolás/bekapcsolás szavanként)
+- Végtelen beállítható szó
+- Beszélgetésben lévő szavak ellenőrzése (kikapcsolás/bekapcsolás)
+- Csatlakozási köszönés (kikapcsolás/bekapcsolás)
+- Kicserélt tagok (%player%, %time%)
+- Anti flood (a szavak üzeneteire)
+- Csak külön szó ellenőrzése (kikapcsolás/bekapcsolás szavanként)
 
 # Commands / Parancsok:
 
 /smartserversay
-Alias: sss, smartss
+- Alias: sss, smartss
 
 # Permissions / Jogok:
 
