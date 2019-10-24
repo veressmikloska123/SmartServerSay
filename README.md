@@ -1,17 +1,17 @@
 # SmartServerSay
-The server can talk with this plugin.
+The server can talk to players with this plugin.
 
 # Description / Leírás:
 
-The server can talk with this plugin.
+The server can talk to the players with this plugin.
 
-The server can greet to player and if the player's message contains a config specified word, the server send the word's message to player.
+The server can greet the player, and if the player's message contains a config specified word, the server sends the word's specified message to player.
 
-You can use for help players with an answer, or anything else.
+You can use it to help players with an answer, or for anything else.
 
-This is my first public plugin, but I have bigger projects. Not too big, but good for begin. Feel free to use, but doesn't copy my code, only for personal use.
+This is my first public plugin, but I have bigger projects. Not too big, but good for beginning. Feel free to use, but don't copy my code, only for personal use.
 
-I updating the plugin soon. Please help me with ideas in Github.
+I'll be updating the plugin soon. Please help me with ideas in Github.
 
 =============================================
 
